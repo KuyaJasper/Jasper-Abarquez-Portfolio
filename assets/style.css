@@ -1,0 +1,120 @@
+
+
+#NavIcon{
+    margin-right:5px;
+}
+
+.fa-github{
+    color: crimson;
+
+}
+
+footer{
+    color: whitesmoke;
+}
+
+.tile{
+    width: 100%;
+    height: 100%;
+}
+
+
+img {
+    border: 2px solid rgb(48, 46, 46);
+  }
+
+  
+#TitleImage{
+    background-image: url("./Images/Pictures/NightLanterns.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+#Projects{
+    background-image: url("./Images/Pictures/WalkingTrail.jpg");
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#Projects p{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;    
+}
+
+#Jasper{ 
+    font-family: 'Kaushan Script', cursive;
+    font-size: 200px;
+    color: whitesmoke;
+}
+
+#Intro h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+#ContactPicture{
+    background-image: url("./Images/Pictures/BlackDiamondSkyline.jpg");
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#ContactText{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+}
+
+#ContactItems li{
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+/* Media Queries */
+
+
+@media only screen 
+and (min-width:1025px)
+ {
+    #TitleImage{
+        background-attachment: fixed;
+    }
+    #Projects{
+        background-attachment: fixed;
+
+    }
+    #ContactPicture{
+        background-attachment: fixed;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-width:600px) {
+    #Jasper{
+        font-size: 95px;
+    }
+
+    #Projects p{
+        font-size: 65px;
+    }
+    #ContactText{
+        font-size: 65px;
+    }
+}
