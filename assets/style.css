@@ -13,12 +13,9 @@
     height: 100%;
 }
 
-* a:hover{
-    color: black;
-}
 
 .button:hover{
-    color: black;
+    color: whitesmoke;
 }
 
 
@@ -28,7 +25,7 @@ img {
 
   
 #TitleImage{
-    background-image: url("./Images/Pictures/NightLanterns.jpg");
+    background-image: url("./Images/Pictures/LanternNight.jpg");
     min-height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +63,7 @@ img {
 }
 
 #ContactPicture{
-    background-image: url("./Images/Pictures/Sunrisebeach.jpg");
+    background-image: url("./Images/Pictures/LanternCity.jpg");
     min-height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
