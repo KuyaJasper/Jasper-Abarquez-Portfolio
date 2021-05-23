@@ -1,134 +1,133 @@
-
-#NavIcon{
-    margin-right:5px;
+#NavIcon {
+  margin-right: 5px;
 }
 
-.fa-github{
-    color: crimson;
-
+.fa-github {
+  color: crimson;
 }
 
-.tile{
-    width: 100%;
-    height: 100%;
+.tile {
+  width: 100%;
+  height: 100%;
 }
 
-
-.resume:hover{
-    color: whitesmoke;
+.resume:hover {
+  color: whitesmoke;
 }
-
 
 img {
-    border: 2px solid rgb(48, 46, 46);
-  }
+  border: 2px solid rgb(48, 46, 46);
+}
 
-  
-#TitleImage{
-    background-image: url("./Images/Pictures/LanternNight.jpg");
-    min-height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+#TitleImage {
+  background-image: url("./Images/Pictures/LanternNight.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 
+#Projects {
+  background-image: url("./Images/Pictures/LanternSunset.jpg");
+  min-height: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#Projects p {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
 }
 
 
-#Projects{
-    background-image: url("./Images/Pictures/LanternSunset.jpg");
-    min-height: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+#Jasper {
+  font-family: "Kaushan Script", cursive;
+  font-size: 200px;
+  color: whitesmoke;
 
+  /* 3d effect */
+  top: 35%;
+  width: 100%;
+
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%),
+    0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%),
+    0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
+    0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
 }
 
-#Projects p{
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;    
+#Intro h1 {
+  font-size: 50px;
+  color: whitesmoke;
 }
 
-#Jasper{ 
-    font-family: 'Kaushan Script', cursive;
-    font-size: 200px;
-    color: whitesmoke;
+#ContactPicture {
+  background-image: url("./Images/Pictures/LanternSunrsie.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#Intro h1{
-    font-size: 50px;
-    color: whitesmoke;
+#ContactText {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-#ContactPicture{
-    background-image: url("./Images/Pictures/LanternSunrsie.jpg");
-    min-height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-#ContactText{
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;    
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-
-}
-
-#ContactItems li{
-    color: whitesmoke;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
+#ContactItems li {
+  color: whitesmoke;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .emailLink {
-    color: whitesmoke;
+  color: whitesmoke;
 }
-.emailLink :hover{
-    color: whitesmoke;
+.emailLink :hover {
+  color: whitesmoke;
 }
 .resume {
-    color: whitesmoke;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    overflow: hidden;
-    outline:none;
+  color: whitesmoke;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
 }
 
 /* Media Queries */
 
-
-@media only screen 
-and (min-width:1025px)
- {
-    #TitleImage{
-        background-attachment: fixed;
-    }
-    #Projects{
-        background-attachment: fixed;
-
-    }
-    #ContactPicture{
-        background-attachment: fixed;
-    }
+@media only screen and (min-width: 1025px) {
+  #TitleImage {
+    background-attachment: fixed;
+  }
+  #Projects {
+    background-attachment: fixed;
+  }
+  #ContactPicture {
+    background-attachment: fixed;
+  }
 }
 
-@media only screen 
-and (min-device-width : 320px)
-and (max-width:600px) {
-    #Jasper{
-        font-size: 95px;
-    }
+@media only screen and (min-device-width: 320px) and (max-width: 600px) {
+  #Jasper {
+    font-size: 95px;
+  }
 
-    #Projects p{
-        font-size: 65px;
-    }
-    #ContactText{
-        font-size: 65px;
-    }
+  #Projects p {
+    font-size: 65px;
+  }
+  #ContactText {
+    font-size: 65px;
+  }
 }
