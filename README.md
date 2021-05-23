@@ -1,15 +1,13 @@
-# Updated Portfolio
+# Current Portfolio
 
-For this project I used the same concept that I had from my original portfolio with major design tweaks.
+This is my current up to date portfolio.
 
-I used a CSS framework called Bulma because they are mobile friendly.
-
-I also used CSS stylesheets from Google Fonts and Font Awesome.
-
-For background images, I used personal pictures from vacations I took on my phone.
+I originally copied the structure of my 2nd portfolio project.
 
 # Screen Shot
 ![](./assets/Images/ScreenShot.gif)
 
 # Application
-[Link to Application](https://kuyajasper.github.io/Updated-Portfolio/).
+To see my latest Portfolio:
+
+[Click Here](https://kuyajasper.github.io/Updated-Portfolio/)
